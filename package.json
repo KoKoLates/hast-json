@@ -1,0 +1,35 @@
+{
+  "name": "md2pdf-cli",
+  "version": "1.0.0",
+  "description": "A command-line tool that allows seamless conversion between Markdown and HTML formats",
+  "main": "cvt.js",
+  "bin": {
+    "md2pdf-cli": "bin/convert.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoKoLates/md2pdf-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KoKoLates/md2pdf-cli/issues"
+  },
+  "homepage": "https://github.com/KoKoLates/md2pdf-cli#readme",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fs": "^0.0.1-security",
+    "markdown-it": "^14.1.0",
+    "markdown-it-highlightjs": "^4.1.0",
+    "markdown-it-katex": "^2.0.3",
+    "path": "^0.12.7",
+    "puppeteer": "^23.0.2"
+  }
+}
