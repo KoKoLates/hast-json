@@ -1,0 +1,96 @@
+{
+  "type": "Object",
+  "children": [
+    {
+      "type": "Property",
+      "key": {
+        "type": "Identifier",
+        "value": "a"
+      },
+      "value": {
+        "type": "Literal",
+        "value": 1
+      }
+    },
+    {
+      "type": "Property",
+      "key": {
+        "type": "Identifier",
+        "value": "b"
+      },
+      "value": {
+        "type": "Literal",
+        "value": "hello"
+      }
+    },
+    {
+      "type": "Property",
+      "key": {
+        "type": "Identifier",
+        "value": "c"
+      },
+      "value": {
+        "type": "Literal",
+        "value": true
+      }
+    },
+    {
+      "type": "Property",
+      "key": {
+        "type": "Identifier",
+        "value": "d"
+      },
+      "value": {
+        "type": "Array",
+        "children": [
+          {
+            "type": "Literal",
+            "value": 1
+          },
+          {
+            "type": "Literal",
+            "value": 2
+          },
+          {
+            "type": "Literal",
+            "value": 3
+          }
+        ]
+      }
+    },
+    {
+      "type": "Property",
+      "key": {
+        "type": "Identifier",
+        "value": "e"
+      },
+      "value": {
+        "type": "Object",
+        "children": [
+          {
+            "type": "Property",
+            "key": {
+              "type": "Identifier",
+              "value": "f"
+            },
+            "value": {
+              "type": "Literal",
+              "value": null
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Identifier",
+              "value": "g"
+            },
+            "value": {
+              "type": "Literal",
+              "value": 4.5
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

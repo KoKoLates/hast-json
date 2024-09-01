@@ -1,27 +1,30 @@
 {
-  "name": "json-ast-parser",
+  "name": "json-ast",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "json-ast": "bin/parse.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KoKoLates/json-ast-parser.git"
+    "url": "git+https://github.com/KoKoLates/json-ast.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KoKoLates/json-ast-parser/issues"
+    "url": "https://github.com/KoKoLates/json-ast/issues"
   },
-  "homepage": "https://github.com/KoKoLates/json-ast-parser#readme",
+  "homepage": "https://github.com/KoKoLates/json-ast#readme",
   "dependencies": {
     "commander": "^12.1.0",
     "fs": "^0.0.1-security"
-  },
-  "bin": {
-    "json-ast-parser": "./bin/json-ast-parser.js"
   }
 }
