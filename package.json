@@ -1,16 +1,16 @@
 {
   "name": "json-ast",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "a command-line interface parse json into ast",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "bin": {
-    "json-ast": "bin/parse.js"
+    "json-ast": "bin/index.js"
   },
   "directories": {
     "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "dependencies": {
     "commander": "^12.1.0",
     "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
