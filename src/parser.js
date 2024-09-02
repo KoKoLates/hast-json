@@ -1,5 +1,7 @@
 /**
- * 
+ * Parses a JSON object into an Abstract Syntax Tree (AST) format.
+ * @param {Object|Array|string|number|boolean|null} json_object - The input JSON object to be parsed.
+ * @returns {Object} - The AST representation of the JSON object.
  */
 function ast_parser(json_object) {
   if (json_object === null) {
