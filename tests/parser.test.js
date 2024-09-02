@@ -1,4 +1,4 @@
-const { ast_parser } = require("../lib/parser");
+const { ast_parser } = require("../src/parser");
 
 test("parses a simple json object", () => {
   const json_object = { a: 1, b: "test", c: null, d: true };

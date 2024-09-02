@@ -2,8 +2,8 @@
 
 const path = require("path");
 const { program } = require("commander");
-const { ast_parser } = require("../lib/parser");
-const { read_file, write_file } = require("../lib/fhandler");
+const { ast_parser } = require("../src/parser");
+const { read_file, write_file } = require("../src/files");
 
 program
   .version("1.0.0")
